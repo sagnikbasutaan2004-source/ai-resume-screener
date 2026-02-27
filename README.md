@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # AI Resume Screener
 
 Command-line tool that ranks PDF resumes against a job description using semantic similarity (transformer embeddings).
@@ -34,6 +34,4 @@ AI-powered resume screening tool using sentence transformers and cosine similari
 2. Edit the `job_description` string in `resume_matcher.py`
 3. Run the script:
 
-   ```powershell
-   python resume_matcher.py
->>>>>>> 58fa190b025557273f519cf67d92487c44691d34
+
