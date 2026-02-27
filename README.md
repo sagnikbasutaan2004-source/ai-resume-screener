@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Resume Screener
 
 Command-line tool that ranks PDF resumes against a job description using semantic similarity (transformer embeddings).
@@ -17,3 +18,22 @@ python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python -m nltk.downloader punkt punkt_tab stopwords wordnet omw-1.4
+=======
+# ai-resume-screener
+
+AI-powered resume screening tool using sentence transformers and cosine similarity
+
+## Features
+- Extracts text from PDF resumes using pdfplumber
+- Preprocesses text with NLTK (tokenization, stopwords, lemmatization)
+- Generates embeddings with sentence-transformers (all-MiniLM-L6-v2)
+- Ranks candidates using cosine similarity
+
+## How to use
+1. Place resume PDF files in the `resumes/` folder
+2. Edit the `job_description` string in `resume_matcher.py`
+3. Run the script:
+
+   ```powershell
+   python resume_matcher.py
+>>>>>>> 58fa190b025557273f519cf67d92487c44691d34
