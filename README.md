@@ -12,7 +12,6 @@ Command-line tool that ranks PDF resumes against a job description using semanti
 ## Installation
 
 ```powershell
-git clone https://github.com/YOURUSERNAME/ai-resume-screener.git
 cd ai-resume-screener
 python -m venv venv
 .\venv\Scripts\Activate.ps1
